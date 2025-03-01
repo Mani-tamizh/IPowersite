@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 // Eagerly importing all components
 import HomeOne from './pages/HomeOne';
@@ -15,6 +15,7 @@ import BlogPageThreeMain from './pages/BlogPageThree';
 
 const App = () => {
   return (
+    <HashRouter>
     <Routes>
       <Route path="/" element={<HomeOne />} />
       <Route path="/home" element={<HomeOne />} />
@@ -28,6 +29,7 @@ const App = () => {
       <Route path="/blog/post2" element={<BlogPageTwoMain />} />
       <Route path="/blog/post3" element={<BlogPageThreeMain />} />
     </Routes>
+  </HashRouter>
   );
 };
 
