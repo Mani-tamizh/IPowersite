@@ -16,20 +16,20 @@ import BlogPageThreeMain from './pages/BlogPageThree';
 const App = () => {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<HomeOne />} />
-        <Route path="/home" element={<HomeOne />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<ServiceUs />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/faq" element={<FAQMain />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/blog" element={<BlogParent />} />
-        <Route path="/blog/:id" element={<BlogPageOneMain />} />
-        <Route path="/blog/post2" element={<BlogPageTwoMain />} />
-        <Route path="/blog/post3" element={<BlogPageThreeMain />} />
-      </Routes>
-    </HashRouter>
+    <Routes>
+      <Route path="/" element={<HomeOne />} />
+      <Route path="/home" element={<HomeOne />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<ServiceUs />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/faq" element={<FAQMain />} />
+      <Route path="/contact" element={<ContactUs />} />
+      <Route path="/blog" element={<BlogParent />} />
+      <Route path="/blog/:id" element={<BlogPageOneMain />} />
+      <Route path="/blog/post2" element={<BlogPageTwoMain />} />
+      <Route path="/blog/post3" element={<BlogPageThreeMain />} />
+    </Routes>
+  </HashRouter>
   );
 };
 
