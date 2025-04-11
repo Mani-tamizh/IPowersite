@@ -1,7 +1,7 @@
 {
-  "homepage": "https://Mani-tamizh.github.io/IPowerCom",
+  "homepage": "https://github.com/Mani-tamizh/IPowersite",
   "name": "plasma-cutting",
-  "base":"IPowerCom",
+  "base":"IPowersite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
