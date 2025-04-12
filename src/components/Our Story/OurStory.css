@@ -49,7 +49,7 @@
     z-index: 2;
   }
   
-  .content {
+  .contentt {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -59,14 +59,14 @@
     max-width: 500px;
   }
   
-  .content h2 {
+  .contentt h2 {
     font-size: 1.5rem;
     color:#f2c014;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
-  .content p {
+  .contentt p {
     font-size: 1rem;
     line-height: 1.5;
     color: #333;

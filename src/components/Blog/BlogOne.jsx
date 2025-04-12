@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const BlogCard = ({ image, author, date, title, description, link }) => {
   return (
     <div className="blog">
-        <div className="blog-card">
+        <div className="blog-card-item">
             <div className="image-container">
                 <img src={image} alt={title} className="blog-image" />
             </div>
-            <div className="content">
+            <div className="blog-content">
                 <div className="metadata">
                 <span className="author">
                     <i className="fa fa-user"></i> {author}

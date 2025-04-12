@@ -27,7 +27,7 @@ const OurEquip = () => {
       <h1>Our Equipment</h1>
       <div className='equip'>
       {services.map((service, index) => (
-        <div key={index} className="service-card">
+        <div key={index} className="service-cardd">
           <img src={service.image} alt={service.title} className="service-image" />
           <div className="service-content">
             <h3>{service.title}</h3>

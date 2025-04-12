@@ -37,6 +37,8 @@
   }
   .contact-form {
     display: grid;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     position: relative;
     order: 2;
@@ -109,10 +111,10 @@
 }
 
   
-  .contact-form textarea {
+.contact-form textarea {
     resize: vertical;
   }
-  .contact-form div{
+.contact-form div{
     display: flex;
     gap: 20px;
   }

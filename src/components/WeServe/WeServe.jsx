@@ -78,7 +78,7 @@ const WeServe = () => {
       <Slider {...settings}>
         {services.map((service, index) => (
           <div key={index} className="service-slide">
-            <div className="service-card">
+            <div className="we-service-card">
               <img src={service.image} alt={service.title} className="service-image" />
               <div className="service-content">
                 <h3>{service.title}</h3>

@@ -84,8 +84,6 @@ function ContactForm() {
         </div>
         <div>
           <input type="tel" name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} />
-        </div>
-        <div>
           <input type="text" name="subject" placeholder="Subject" value={formData.subject} onChange={handleChange} />
         </div>
         <textarea name="message" placeholder="Message" value={formData.message} onChange={handleChange}></textarea>

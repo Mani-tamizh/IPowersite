@@ -24,7 +24,6 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="fotr_container">
-              <hr />
               <div className="nav_links">
                 <div className="logo">
                   <img src={logo} alt="h" />
@@ -86,7 +85,6 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <hr />
             </div>
           </div>
         </div>

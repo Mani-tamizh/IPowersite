@@ -41,7 +41,7 @@ export const AccordionService = ({ data }) => {
   };
 
   return (
-    <div className='categories'>
+    <div className='service-categories'>
       
       <h1>Service Categories</h1>
       <div className="accordion">

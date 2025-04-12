@@ -57,7 +57,7 @@ const Keyservice = () => {
                 {services.map((service, index) => (
                     <div
                         key={index}
-                        className="service-cardd"
+                        className="service-card"
                         style={{ backgroundImage: `url(${service.image})` }}
                     >
                         <motion.div

@@ -62,7 +62,7 @@
     margin: 0 auto; /* Center the container */
 }
 
-.service-cardd {
+.service-card {
     position: relative;
     width: 100%; /* Adjust based on how many cards you have */
     padding-top: 35.25%; /* Aspect ratio for images */
@@ -74,7 +74,7 @@
     border:none;
 }
 
-.service-cardd:hover {
+.service-card:hover {
     background-color: rgba(229, 184, 11, 0.5);
     background-blend-mode: color-burn;/* Zoom effect on hover */
     overflow: hidden;
@@ -100,13 +100,13 @@
     padding: 20px;
     text-align: center;
 }
-.service-cardd h3 {
+.service-card h3 {
     font-size: 24px;
     color: whitesmoke;
     padding-bottom: 20px;
 }
 
-.service-cardd p {
+.service-card p {
     color: whitesmoke;
     font-size: 18px;
     margin-bottom: 20px;
@@ -139,7 +139,7 @@
         flex-direction: column;
         gap: 10px; 
     }
-    .service-cardd { /* Adjust based on how many cards you have */
+    .service-card { /* Adjust based on how many cards you have */
         padding-top: 100.25%; /* Aspect ratio for images */
     }
     .service-border

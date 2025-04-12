@@ -31,7 +31,7 @@ const Service = () => {
             viewport={{once:false, amount:0.8}} 
           >
             <Breadcrumb.Item className='breadcrumb'>
-              <Link to="/">Home</Link>
+              <Link to="/" className='b-link'>Home</Link>
             </Breadcrumb.Item>
             <span className="breadcrumb-separator"><FaAngleDoubleRight className="icon
             "/></span>

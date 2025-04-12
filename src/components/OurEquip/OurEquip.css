@@ -15,7 +15,7 @@
     font-family: "Poppins", sans-serif;
   }
   
-  .service-card {
+  .service-cardd {
     background: #fff;
     border-radius: 12px;
     border: 0.6px solid rgba(0, 0, 0, 0.1);
@@ -25,11 +25,11 @@
     width: 300px;
   }
   
-  .service-card:hover {
+  .service-cardd:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
   }
-  .service-card:hover .service-content
+  .service-cardd:hover .service-content
   {
     background-color: #f2c014;
   }
@@ -41,7 +41,7 @@
     transition: transform 0.3s ease;
   }
   
-  .service-card:hover .service-image {
+  .service-cardd:hover .service-image {
     transform: scale(1.05);
     background-color: #f2c014;
     background-blend-mode: color-dodge;
@@ -77,7 +77,7 @@
       font-family: "Poppins", sans-serif;
     }
     
-    .service-card {
+    .service-cardd {
       background: #fff;
       border-radius: 12px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);

@@ -34,7 +34,7 @@ const OurStory = () => {
         animate="show"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.8 }}
-        className="content"
+        className="contentt"
       >
         <h2>Our Story</h2>
         <motion.p
